@@ -4,106 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <!--Fonte-->
     <link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
-    <!-- ele ira mudar estilo da fonte -->
+    <!--Importando JavaScript-->
  
     <title>28Food</title>
 </head>
-<body>
-    <div class="half-image"></div>
+<body class="fundo" style="background-image: url(../28Food/img/img-fundo-principal.jpg);">
     <div class="container">
-        <div class="logo"><a href="index.html" width="100px" height="100px"> <img src="img/28food.jpeg.svg" width="100px" height="100px"></div></a>
+        <div class="logo">
+            <a href="index.html"><img src="img/28foodlogomarca.svg" width="100px" height="100px"></a>
+        </div>
+       
         <div class="menu">
-            <a href="doces.html">DOCES</a>
-            <a href="salgados.html">SALGADOS</a>
-            <a href="saladas.html">SALADAS</a>
+            <a href="doces.html">Doces</a>
+            <a href="salgados.html">Salgados</a>
+            <a href="saladas.html">Saladas</a>
         </div>
+
         <div class="social">
-            <a href="https://facebook.com" class="fcb"><img src="icons/icons8-facebook-24.png"></a>
-            <a href="https://instagram.com" class="ins"><img src="icons/icons8-instagram-24.png"></a>
-            <!-- direciona para redes sociais -->
-        </div>
-
+        <a href="https://facebook.com" class="fb"><img src="icons/icons8-facebook-24.png" height="50px", width="50px"></a>
+        <a href="https://instagram.com" class="ins"><img src="icons/icons8-instagram-24.png"  height="50px", width="50px"></a>
     </div>
+    </div>
+
     <div class="pesquisa">
-        <input type="text" placeholder="pesquisar">
-        <input type="submit" value="" >
+    <input type="text" placeholder="O que vamos comer hoje...">
+    <input type="submit" value="">
     </div>
 
-    <div class="99">
-        <h1>99 Acabou...Nossaaaa...Agora é 28Food</h1>
+    <div class="a99">
+        <h1>99 Acabou...Nooooossa...Agora é 28Food</h1>
     </div>
 
-    <!-- banner rotativo slides -->
+    <!--Bainer rotativo de slides-->
     <div class="slideshow-container">
         <div class="mySlides fade">
+            <div class="numbertext">1 - X</div>
+            <a href=""><img src="img/img-pao1.jpeg" style="width: 900px; height: 500px; border-radius: 10px;" class="slideimg"></a>
+            <div class="text">PÂO CASEIRO</div>
+        </div>
+
+         <div class="mySlides fade">
+            <div class="numbertext">2 - X</div>
+            <a href=""><img src="img/img-coxinhas1.jpg" style="width: 900px; height: 500px;" class="slideimg"></a>
+            <div class="text">COXINHAS VARIADAS</div>
+         </div>
+
+        <div class="mySlides fade">
             <div class="numbertext">3 - X</div>
-            <img src="img/pao.jpeg" style="width: 690px; height: 400px;" class="slide-img">
-            <div class="text">pão caseiro</div>
+            <a href=""><img src="img/img-Espaguete1.webp" style="width: 900px; height: 500px;" class="slideimg"></a>
+            <div class="text">ESPAGUETE</div>
         </div>
+    </div>
+    <br>
     
-    
-    <div class="mySlides fade">
-        <div class="numbertext">2 - X</div>
-        <img src="img/macarrao.jpeg" style="width: 690px; height: 400px;"  class="slide-img">
-        <div class="text">macarrão</div>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
     </div>
 
-    <div class="mySlides fade">
-        <div class="numbertext">1 - X</div>
-        <img src="img/coxinha1.jpeg.jpg" style="width: 690px; height: 400px;"  class="slide-img">
-        <div class="text">coxinha</div>
+    <h1 class="texto-receitas">receitas</h1>
+
+    <!--Conteúdo ou seja caixa de receiras-->
+
+    <div class="container-receitas">
+        <div class="receitabox">
+            <a href=""><img src="img/img-coxinhas2.jpg" alt="foto de coxinha tremenda" class="receita-imagem" style="width: 300px; height: 300px;"></a>
+            <div class="overlay">
+                <a href="" class="container-receitas">Coxinha Tremenda</a>
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href=""><img src="img/img-pao2.jpg" alt="foto de super pão" class="receita-imagem" style="width: 300px; height: 300px;"></a>
+            <div class="overlay">
+                <a href="" class="container-receitas">Super Pão</a>
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href=""><img src="img/img-Espaguete2.avif" alt="foto de espaguete" class="receita-imagem" style="width: 300px; height: 300px;"></a>
+            <div class="overlay">
+                <a href="" class="container-receitas">Espague</a>
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href="../28Food/receitas/doces/bolo_chocolate.html"><img src="img/img-bolo_chocolate1.jpg" alt="foto de bolo" class="receita-imagem" style="width: 300px; height: 300px;"></a>
+            <div class="overlay">
+                <a href="../28Food/receitas/doces/bolo_chocolate.html" class="container-receitas">Bolo de Chocolate</a>
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href=""><img src="img/img-carne_panela1.jpg" alt="foto de carne de panela" class="receita-imagem" style="width: 300px; height: 300px;"></a>
+            <div class="overlay">
+                <a href="" class="container-receitas">Carne de Panela</a>
+            </div>
+        </div>
     </div>
-</div>
-<br>
-
-    
-    <div style="text-align: center;">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        </div>
-
-        <h1 class="texto-receitas">Receitas</h1>
-
-        <!-- vamos escrver as caixas de receitas logo embaixo -->
-
-        <div class="container-receitas">
-            <div clas="receitabox">
-                <a href="" class="rec-texto"><img src="img/coxinha2.jpg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"> </a>
-                <div class="overlay">
-                    <a href="" class="rec-texto">coxinha tremenda</a>
-                </div>
-            </div>
-
-            <div clas="receitabox">
-                <a href="" class="rec-texto"><img src="img/macarrao 3.jpg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"> </a>
-                <div class="overlay">
-                    <a href="" class="rec-texto">macarrao dos deuses</a>
-                </div>
-            </div>
-
-            <div clas="receitabox">
-                 <a href="" class="rec-texto"><img src="img/pao 2.jpg" style="width: 300px; height: 300px;" alt="foto de coxinha tremenda" class="receita-image"></a>
-                <div class="overlay">
-                 <a href="" class="rec-texto">super pão</a>
-                    
-                </div>
-            </div>
-
-        </div>
 
     <script src="scripts/script.js"></script>
-    <!-- importando codigo java script -->
 </body>
-
-<br>
-
-
 <footer class="rodape">
     <div class="rodape-container">
 
     </div>
-
 </footer>
 </html>

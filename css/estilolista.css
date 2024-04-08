@@ -1,22 +1,70 @@
-/* TRATANDO IMAGEM DO CSS */
-.listareceitas{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/*tratando imagens no css*/
+.lista-receitas{
     width: auto;
     height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
     margin-bottom: 80px;
-
 }
-.listareceita-img{
-    border-radius: 30px;
+
+
+.overlay{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1e7387;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .receitabox{
-    width: 300px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #174a6f;
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1e7387;
     font-size: 18px;
-    padding: 30px;
+    width: 300px;
+}
 
+.lista-imagem{
+    border-radius: 30px;
+}
+
+.texto-receitas-doces{
+    background-color: rgba(240, 248, 255, 0.783);
+    font-family: 'Curely', sans-serif;
+    font-size: 40px;
+    color:#1e7387;
+    text-align: center;  
+    padding: 5px 0px 5px 0px;
+   margin: 50px auto 50px auto;
+   width: 13%;
+   border-radius: 10px;  
+   
+}
+
+.texto-receitas-salgadas{
+    background-color: rgba(240, 248, 255, 0.783);
+    font-family: 'Curely', sans-serif;
+    font-size: 40px;
+    color:#1e7387;
+    text-align: center;  
+    padding: 5px 0px 5px 0px;
+   margin: 50px auto 50px auto;
+   width: 17%;
+   border-radius: 10px;  
+   
+}
+
+.texto-receitas-saladas{
+    background-color: rgba(240, 248, 255, 0.783);
+    font-family: 'Curely', sans-serif;
+    font-size: 40px;
+    color:#1e7387;
+    text-align: center;  
+    padding: 5px 0px 5px 0px;
+   margin: 50px auto 50px auto;
+   width: 17%;
+   border-radius: 10px;  
+   
 }

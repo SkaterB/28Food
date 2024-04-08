@@ -1,169 +1,108 @@
-
 <!DOCTYPE html>
-
 <html lang="pt-br">
-
 <head>
-
-  <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- LINK DO CSS -->
-
-<link rel="stylesheet" href="css/estilo.css">
-
-<link rel="stylesheet" href="css/estilolista.css">
-
-<!-- IMPORTANDO A FONTE -->
-
-<link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
-
-<title>Doces</title>
-
-</head>
-
-<body>
-
-</head>
-
-<body>
-
-<div class="container">
-
-<div class="logo"><a href="index.html"><img src="img/28foodlogomarca3.svg" width="100px" height="100px"></a></div>
-
-<div class="menu">
-
-<a href="doces.html">Doces</a>
-
-<a href="salgados.html">Salgados</a>
-
-<a href="saladas.html">Saladas</a>
-
-</div>
-
-<div class="social">
-
-<a href="https://facebook.com" class="fb"><img src="icons/icons8-facebook-24.png"></a>
-
-<a href="https://instagram.com" class="ins"><img src="icons/icons8-instagram-24.png"></a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilolistas.css">
+    <!--Fonte-->
+    <link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
+    <!--Importando JavaScript-->
  
-</div>
+    <title>28Food</title>
+</head>
+<body class="fundo" style="background-image: url(../28Food/img/img-fundo-doce.jpg);">
+    
+    <!--Aqui começa o menu-->
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="img/28foodlogomarca.svg" width="100px" height="100px"></a>
+        </div>
+       
+        <div class="menu">
+            <a href="doces.html">Doces</a>
+            <a href="salgados.html">Salgados</a>
+            <a href="saladas.html">Saladas</a>
+        </div>
 
+        <div class="social">
+        <a href="https://facebook.com" class="fb"><img src="icons/icons8-facebook-24.png" height="50px", width="50px"></a>
+        <a href="https://instagram.com" class="ins"><img src="icons/icons8-instagram-24.png"  height="50px", width="50px"></a>
+    </div>
+    </div>
 
-</div>
+    <div class="pesquisa">
+    <input type="text" placeholder="O que vamos comer hoje...">
+    <input type="submit" value="">
+    </div>
 
-<div class="pesquisa">
+    
 
-<input type="text" placeholder=" Pesquisar...">
+  <!--Aqui termina o menu-->
 
-<input type="submit" value="">
-
-</div>
-
-    <div>
-
-    <!--Aqui termina o menu-->
+  <h1 class="texto-receitas-doces">RECEITAS DOCES</h1>
 
   <!--Aqui começa as caixas de receitas-->
-
-<div class="liata-receitas">
+<div class="lista-receitas">
 
     <!--Caixa de receita-->
+    <div class="receitabox">
+        
+        <!--Colocar link da receita no href-->
+        <!--Colocar img na receita no img-->
+        <a href="../28Food/receitas/doces/bolo_chocolate.html"><img src="img/img-bolo_chocolate1.jpg" alt="foto de bolo" class="lista-imagem" style="width: 300px; height: 300px;"></a>
+        <div class="receitabox">
+            <!--descrição breve da receita-->
+            <a href="../28Food/receitas/doces/bolo_chocolate.html" class="overlay">Bolo de Chocolate</a>
+            <br>
+            <text>Bolo de padaria, recheado com cholocale cremoso.</text>
+        </div>    
+    </div>
 
     <div class="receitabox">
-
+        
         <!--Colocar link da receita no href-->
-
         <!--Colocar img na receita no img-->
-
-        <a href=""><img src="" alt="" class="receita-imagem" style="width: 300px; height: 300px;"></a>
-
+        <a href=""><img src="img/img-brigadeiro1.jpg" alt="foto do brigadeiro" class="lista-imagem" style="width: 300px; height: 300px;"></a>
+        <div class="receitabox">
             <!--descrição breve da receita-->
+            <a href="" class="overlay">Brigadeiro</a>
+            <br>
+            <text>Brigadeiro delicioso</text>
+        </div>    
+    </div>
 
-            <a href="" class="container-receitas">Descrição</a>
+    <div class="receitabox">
+        
+        <!--Colocar link da receita no href-->
+        <!--Colocar img na receita no img-->
+        <a href=""><img src="img/img-pudim1.jpeg" alt="foto do pudim1" class="lista-imagem" style="width: 300px; height: 300px;"></a>
+        <div class="receitabox">
+            <!--descrição breve da receita-->
+            <a href="" class="overlay">Pudim</a>
+            <br>
+            <text>Pudim de Leite de coco</text>
+        </div>    
+    </div>
+
+    <div class="receitabox">
+        
+        <!--Colocar link da receita no href-->
+        <!--Colocar img na receita no img-->
+        <a href=""><img src="img/img-sorvete1.jpg" alt="foto do sorvete1" class="lista-imagem" style="width: 300px; height: 300px;"></a>
+        <div class="receitabox">
+            <!--descrição breve da receita-->
+            <a href="" class="overlay">Sorvete</a>
+            <br>
+            <text>Delicioso sorvete com frutas vermelhas</text>
+        </div>    
+    </div>
+</div>
+  <!--Aqui termina as caixas de receitas-->
+</body>
+<footer class="rodape">
+    <div class="rodape-container">
 
     </div>
- 
-    <div class="container-receitas">
-
-        <div class="receitabox" >
-
-            <a href="" class="rec-texto"><img src="img/rocambole.img.jpg" alt="foto rocambole" class="receita-imagem" height="300px" width="300px"><a href="" class="rec-texto"></a>
-
-            <div class="overlay">
-
-                Rocambole de doce de leite
-
-            </div>
-
-        </div>
-
-        <div class="receitabox">
-
-            <a href="" class="rec-texto"><img src="img/brigadeiro.jpg" alt="Foto de espague dos Deuses" class="receita-imagem" height="300px" width="300px"></a>
-
-            <div class="overlay">
-
-                Brigadeiro
-
-            </div>
-
-        </div>
-
-        <div class="receitabox">
-
-            <a href="" class="rec-texto"><img src="img/Donuts de chocolate.jpg" alt="Foto de Super Pão" class="receita-imagem" height="300px" width="300px"></a>
-
-            <div class="overlay">
-
-                Donuts de chocolate
-
-            </div>
-
-        </div>
-
-        <div class="receitabox" >
-
-            <a href="" class="rec-texto"><img src="img/Pudim.jpg" alt="Foto de Esfirra" class="receita-imagem" height="300px" width="300px"><a href="" class="rec-texto"></a>
-
-            <div class="overlay">
-
-                Pudim
-
-            </div>
-
-        </div>
-
-        <div class="receitabox">
-
-            <a href="" class="rec-texto"><img src="img/rocambole-chocolate.webp" alt="Foto de Lande" class="receita-imagem" height="300px" width="300px"></a>
-
-            <div class="overlay">
-
-                Rocambole chocolate
-
-            </div>
-
-        </div>
-
-        <div class="receitabox">
-
-            <a href="" class="rec-texto"><img src="img/Quindim.jpg" alt="Foto de Super Pão" class="receita-imagem" height="300px" width="300px"></a>
-
-            <div class="overlay">
-
-                Quindim
-
-            </div>
-
-        </div>
- 
 </footer>
- 
-</html>
-
-</footer>
-
 </html>
