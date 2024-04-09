@@ -18,8 +18,8 @@
 
 
 .logo{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu{
@@ -103,12 +103,12 @@ width: 40px;
 .a99{
 
 
-    background-color: rgba(240, 248, 255, 0.783);
-    font-family: 'Curely', sans-serif;
-    font-size: 20px;
-    color:#1e7387;
-    text-align: center;  
-    padding: 0px 0px 0px 0px;
+   background-color: rgba(240, 248, 255, 0.783);
+   font-family: 'Curely', sans-serif;
+   font-size: 20px;
+   color:#1e7387;
+   text-align: center;  
+   padding: 0px 0px 0px 0px;
    margin: 50px auto 50px auto;
    width: 34%;
    border-radius: 10px;  
@@ -204,13 +204,31 @@ h1{
 
 /*rodape página*/
 .rodape{
-    height: 300px;
-    width: auto;
-    background-color: #1e7387;
-    margin-top: 50px;
-    border-radius: 10px;
+    font-size: 22px;
+    color: beige;
+    display: flex;
+    justify-content: left;
 }
 
+.rodape text{
+    margin-top: 250px;
+}
+
+.rodape a{
+    align-content: center;
+    font-size: 22px;
+    color: #f5dbd7;
+    text-decoration: none;
+}
+
+.rodape-container{
+    display: flex;
+    align-items: center;
+    float: left;
+    font-size: medium;
+    margin-left: 20%;
+
+}
 @keyframes fade{
     from{opacity: 0.1;}
     to{opacity: 1;}
